@@ -87,11 +87,15 @@ html {
   }
 
   .links {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
     margin-top: 3%;
-    margin-left: 15%;
+    margin-left: -5%;
+  }
+
+  .logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 10%;
     background-image: url('mid/logo.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -99,10 +103,12 @@ html {
   }
 
   .logo:hover {
-    transform: scale(1.2) translate(-450%, 30%);
+    transform: scale(1.2);
 
   }
 
-  .instagram, .whatsapp, .linkedin, .github {
+  .instagram, .whatsapp, .linkedin {
     color: white;
+    position: relative;
+    left: 35%;
   }
